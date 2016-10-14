@@ -46,7 +46,7 @@
                 Deletable="0"
                 SaveOption="SaveWorkspaceFiles"
                 RunFromDir="%rw">
-                <Exec CmdLine='plink PROD39 -l q829980 "export LANG=en_US &amp;&amp; cd ~/dev/sandbox/arrays &amp;&amp; make -f arrays.mak"'/>
+                <Exec CmdLine='plink PROD39 -l q829980 "export LANG=en_US &amp;&amp; cd ~/dev/exemplars/arrays &amp;&amp; make -f arrays.mak"'/>
             </Target>
             <Target
                 Name="Rebuild"
@@ -174,7 +174,7 @@
                 Deletable="0"
                 SaveOption="SaveWorkspaceFiles"
                 RunFromDir="%rw">
-                <Exec CmdLine='plink PROD39 -l q829980 "export LANG=en_US &amp;&amp; cd ~/dev/sandbox/arrays &amp;&amp; make -f arrays.mak"'/>
+                <Exec CmdLine='plink PROD39 -l q829980 "export LANG=en_US &amp;&amp; cd ~/dev/exemplars/arrays &amp;&amp; make -f arrays.mak"'/>
             </Target>
             <Target
                 Name="Rebuild"
